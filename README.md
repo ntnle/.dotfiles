@@ -7,5 +7,6 @@
 6. version-managed Python (miniforge), Node.js (asdf)
 
 # Usage
-`git clone https://github.com/ntnle/.dotfiles && ~/.dotfiles
-cd ~/.dotfiles && ./setup.sh`
+`git clone https://github.com/ntnle/.dotfiles ~/.dotfiles
+&& cd ~/.dotfiles 
+&& ./setup.sh`
