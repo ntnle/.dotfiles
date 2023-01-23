@@ -8,5 +8,4 @@
 
 # Usage
 `git clone https://github.com/ntnle/.dotfiles && ~/.dotfiles
-cd ~/.dotfiles && ./setup.sh
-# .dotfiles`
+cd ~/.dotfiles && ./setup.sh`
