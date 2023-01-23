@@ -21,6 +21,7 @@ echo "- p10k"
 git clone -q --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k &>/dev/null
 
 echo "- firacode nerd font"
+font_path=$HOME/.local/share/fonts
 mkdir -p "$font_path"
 
 curl -sSOL 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip'
@@ -31,4 +32,5 @@ cp FiraCode/Fira\ Code\ *\ Nerd\ Font\ Complete\ Mono.ttf "$font_path"
 rm -rf FiraCode
 
 # reload font cache
-fc-cache-f
+sudo apt install fontconfig
+fc-cache -f

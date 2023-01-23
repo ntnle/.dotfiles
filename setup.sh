@@ -31,12 +31,11 @@ done 2>/dev/null &
 dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 cd "$dir"
 
-# (TODO)
 . setup/shell.sh
-#. setup/symlinks.sh
-#. setup/tools.sh
-#. setup/languages.sh
-#. setup/cleanup.sh
+. setup/symlinks.sh
+. setup/tools.sh
+. setup/languages.sh
+. setup/cleanup.sh
 
 printf "\nDone! To finish installation:\n"
 # echo "- configure your terminal and IDEs to use Fira Code Nerd Font Mono (already set up in wezterm)"
